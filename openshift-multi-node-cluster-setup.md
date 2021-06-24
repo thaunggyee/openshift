@@ -1,5 +1,5 @@
-yum update
-yum install -y wget git zile nano net-tools docker-1.13.1 bind-utils iptables-services bridge-utils bash-completion kexec-tools sos psacct openssl-devel httpd-tools NetworkManager python-cryptography python3-pip python-devel python-passlib java-1.8.0-openjdk-headless "@Development Tools"
+* yum update
+* yum install -y wget git zile nano net-tools docker-1.13.1 bind-utils iptables-services bridge-utils bash-completion kexec-tools sos psacct openssl-devel httpd-tools NetworkManager python-cryptography python3-pip python-devel python-passlib java-1.8.0-openjdk-headless "@Development Tools"
 yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 sed -i -e "s/^enabled=1/enabled=0/" /etc/yum.repos.d/epel.repo
 systemctl start NetworkManager
